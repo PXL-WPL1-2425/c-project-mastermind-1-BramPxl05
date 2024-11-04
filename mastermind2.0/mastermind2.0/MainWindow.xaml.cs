@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -14,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace mastermind
+namespace mastermind2._0
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,6 +19,7 @@ namespace mastermind
         public MainWindow()
         {
             InitializeComponent();
+            InitializeComponent();
 
             Random rnd = new Random();
             int kleur1 = rnd.Next(1, 7);
@@ -31,12 +27,12 @@ namespace mastermind
             int kleur3 = rnd.Next(1, 7);
             int kleur4 = rnd.Next(1, 7);
 
-           string kleurtext1 = Convert.ToString (kleur1);
-           string kleurtext2 = Convert.ToString (kleur2);
-           string kleurtext3 = Convert.ToString (kleur3);
-           string kleurtext4 = Convert.ToString (kleur4);
+            string kleurtext1 = Convert.ToString(kleur1);
+            string kleurtext2 = Convert.ToString(kleur2);
+            string kleurtext3 = Convert.ToString(kleur3);
+            string kleurtext4 = Convert.ToString(kleur4);
 
-           this.Title = ($"{kleurtext1}, {kleurtext2}, {kleurtext3}, {kleurtext4}");
+            this.Title = ($"{kleurtext1}, {kleurtext2}, {kleurtext3}, {kleurtext4}");
             //if (kleur1 == 1)
             //{
             //    Convert.kl
@@ -59,39 +55,10 @@ namespace mastermind
             //}
             //else if (kleur1 == 6)
             //{
-                
+
             //}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-                    }
     }
 }
