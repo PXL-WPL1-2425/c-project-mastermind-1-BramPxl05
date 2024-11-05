@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.AccessControl;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -149,6 +150,56 @@ namespace mastermind2._0
             }
 
             this.Title = ($"{kleurtext1}, {kleurtext2}, {kleurtext3}, {kleurtext4}");
+
+            cbkleur1.ItemsSource = new List<string> { "rood", "geel", "oranje", "wit", "groen", "blauw"  };
+            cbkleur2.ItemsSource = new List<string> { "rood", "geel", "oranje", "wit", "groen", "blauw"  };
+            cbkleur3.ItemsSource = new List<string> { "rood", "geel", "oranje", "wit", "groen", "blauw"  };
+            cbkleur4.ItemsSource = new List<string> { "rood", "geel", "oranje", "wit", "groen", "blauw"  };
+
+           
+
+
+
+
+
+
+
+
+
+
+
+            
         }
+
+
+
+
+
+
+
+        private void cbkleur1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+        }
+        private void cbkleur2_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+        private void cbkleur3_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+        private void cbkleur4_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+
+        private Brush getcolorfromindex(string index)
+        {
+            switch (kleurkeuze)
+        }
+
+
     }
 }

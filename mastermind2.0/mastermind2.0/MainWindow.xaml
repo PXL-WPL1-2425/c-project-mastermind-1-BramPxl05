@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="1000">
     <Grid>
-        <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="250" Stroke="Black" StrokeThickness="7" VerticalAlignment="Top" Width="250" Margin="0,32,0,0"/>
-        <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="250" Stroke="Black" StrokeThickness="7" VerticalAlignment="Top" Width="250" Margin="750,32,0,0"/>
-        <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="250" Stroke="Black" StrokeThickness="7" VerticalAlignment="Top" Width="250" Margin="500,32,0,0"/>
-        <Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="250" Stroke="Black" StrokeThickness="7" VerticalAlignment="Top" Width="250" Margin="250,32,0,0"/>
+        <Rectangle Name="kleurvlak1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="250" Stroke="Black" StrokeThickness="7" VerticalAlignment="Top" Width="250" Margin="0,32,0,0"/>
+        <Rectangle Name="kleurvlak2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="250" Stroke="Black" StrokeThickness="7" VerticalAlignment="Top" Width="250" Margin="750,32,0,0"/>
+        <Rectangle Name="kleurvlak3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="250" Stroke="Black" StrokeThickness="7" VerticalAlignment="Top" Width="250" Margin="500,32,0,0"/>
+        <Rectangle Name="kleurvlak4" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="250" Stroke="Black" StrokeThickness="7" VerticalAlignment="Top" Width="250" Margin="250,32,0,0"/>
         <Button Content="check code" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500" Grid.Column="1" Height="42" FontSize="20" Margin="0,282,0,0"/>
-        <ComboBox Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="250"/>
-        <ComboBox Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="250" Margin="750,0,0,0"/>
-        <ComboBox Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="250" Margin="500,0,0,0"/>
-        <ComboBox Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="250" Margin="250,0,0,0"/>
+        <ComboBox Name="cbkleur1" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="250" SelectionChanged="cbkleur1_SelectionChanged" />
+        <ComboBox Name="cbkleur2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="250" Margin="750,0,0,0"/>
+        <ComboBox Name="cbkleur3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="250" Margin="500,0,0,0"/>
+        <ComboBox Name="cbkleur4" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="250" Margin="250,0,0,0"/>
 
     </Grid>
 </Window>
