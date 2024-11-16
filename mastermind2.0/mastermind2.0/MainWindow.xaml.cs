@@ -33,8 +33,6 @@ namespace mastermind2._0
             //string kleurtext3 = Convert.ToString(kleur3);
             //string kleurtext4 = Convert.ToString(kleur4);
 
-
-
             string kleurtext1 = "";
             string kleurtext2 = "";
             string kleurtext3 = "";
@@ -94,9 +92,9 @@ namespace mastermind2._0
             {
                 kleurtext2 = "blauw";
             }
-            
+
             //KLEUR 3
-            
+
             if (kleur3 == 1)
             {
                 kleurtext3 = "rood";
@@ -109,7 +107,7 @@ namespace mastermind2._0
             {
                 kleurtext3 = "oranje";
             }
-            else if (kleur3== 4)
+            else if (kleur3 == 4)
             {
                 kleurtext3 = "wit";
             }
@@ -149,57 +147,291 @@ namespace mastermind2._0
                 kleurtext4 = "blauw";
             }
 
-            this.Title = ($"{kleurtext1}, {kleurtext2}, {kleurtext3}, {kleurtext4}");
+            //this.Title = ($"{kleurtext1}, {kleurtext2}, {kleurtext3}, {kleurtext4}");
 
-            cbkleur1.ItemsSource = new List<string> { "rood", "geel", "oranje", "wit", "groen", "blauw"  };
-            cbkleur2.ItemsSource = new List<string> { "rood", "geel", "oranje", "wit", "groen", "blauw"  };
-            cbkleur3.ItemsSource = new List<string> { "rood", "geel", "oranje", "wit", "groen", "blauw"  };
-            cbkleur4.ItemsSource = new List<string> { "rood", "geel", "oranje", "wit", "groen", "blauw"  };
-
-           
-
-
-
-
-
-
-
-
-
-
+            randomkleur1.Content = kleurtext1;
+            randomkleur2.Content = kleurtext2;
+            randomkleur3.Content = kleurtext3;
+            randomkleur4.Content = kleurtext4;
 
             
+
+
+
+
+
+
+
         }
 
-
-
-
-
-
-
-        private void cbkleur1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private Brush GetColorFromIndex(int selectedIndex)
         {
+            switch (selectedIndex)
+            {
+                case 1:
+                    return Brushes.Red; 
+                case 2:
+                    return Brushes.Yellow;
+                case 3:
+                    return Brushes.Orange;
+                case 4:
+                    return Brushes.White;
+                case 5:
+                    return Brushes.Green;
+                case 6:
+                    return Brushes.Blue;
+                default:
+                    return Brushes.Black;
+            }
+        }
+
+        private void ButtonKleurRood1_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak1.Background = Brushes.Red.Clone();
+            //kleurvlak1.Content = "rood";
+        }
+
+        private void ButtonKleurGeel1_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak1.Background = Brushes.Yellow;
+            //kleurvlak1.Content = "geel";
+        }
+
+        private void ButtonKleurOranje1_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak1.Background = Brushes.Orange.Clone();
+            //kleurvlak1.Content = "oranje";
+        }
+
+        private void ButtonKleurWit1_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak1.Background = Brushes.Beige.Clone();
+            //kleurvlak1.Content = "wit";
+        }
+
+        private void ButtonKleurGroen1_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak1.Background = Brushes.Green.Clone();
+            //kleurvlak1.Content = "groen";
+        }
+
+        private void ButtonKleurBlauw1_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak1.Background = Brushes.Blue.Clone();
+            //kleurvlak1.Content = "blauw";
+        }
+
+        private void ButtonKleurRood2_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak2.Background = Brushes.Red.Clone();
+            //kleurvlak2.Content = "rood";
+        }
+
+        private void ButtonKleurgeel2_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak2.Background = Brushes.Yellow.Clone();
+            //kleurvlak2.Content = "geel";
+        }
+
+        private void ButtonKleurOranje2_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak2.Background = Brushes.Orange.Clone();
+            //kleurvlak2.Content = "oranje";
+        }
+
+        private void ButtonKleurWit2_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak2.Background = Brushes.Beige.Clone();
+            //kleurvlak2.Content = "wit";
+        }
+
+        private void ButtonKleurGroen2_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak2.Background = Brushes.Green.Clone();
+            //kleurvlak2.Content = "groen";
+        }
+
+        private void ButtonKleurBlauw2_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak2.Background = Brushes.Blue.Clone();
+            //kleurvlak2.Content = "blauw";
+        }
+
+        private void ButtonKleurRood3_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak3.Background = Brushes.Red.Clone();
+            //kleurvlak3.Content = "rood";
+        }
+
+        private void ButtonKleurGeel3_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak3.Background = Brushes.Yellow.Clone();
+            //kleurvlak3.Content = "geel";
+        }
+
+        private void ButtonKleurOranje3_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak3.Background = Brushes.Orange.Clone();
+            //kleurvlak3.Content = "oranje";
+        }
+
+        private void ButtonKleurWit3_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak3.Background = Brushes.Beige.Clone();
+            //kleurvlak3.Content = "wit";
+        }
+
+        private void ButtonKleurGroen3_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak3.Background = Brushes.Green.Clone();
+            //kleurvlak3.Content = "groen";
+        }
+
+        private void ButtonKleurBlauw3_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak3.Background = Brushes.Blue.Clone();
+            //kleurvlak3.Content = "blauw";
+        }
+
+        private void ButtonKleurRood4_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak4.Background = Brushes.Red.Clone();
+            //kleurvlak4.Content = "rood";
+        }
+
+        private void ButtonKleurGeel4_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak4.Background = Brushes.Yellow.Clone();
+            //kleurvlak4.Content = "geel";
+        }
+
+        private void ButtonKleurOranje4_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak4.Background = Brushes.Orange.Clone();
+            //kleurvlak4.Content = "oranje";
+        }
+
+        private void ButtonKleurWit4_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak4.Background = Brushes.Beige.Clone();
+            //kleurvlak4.Content = "wit";
+        }
+
+        private void ButtonKleurGroen4_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak4.Background = Brushes.Green.Clone();
+            //kleurvlak4.Content = "groen";
+        }
+
+        private void ButtonKleurBlauw4_Click(object sender, RoutedEventArgs e)
+        {
+            kleurvlak4.Background = Brushes.Blue.Clone();
+            //kleurvlak4.Content = "blauw";
+        }
+
+        private void CheckCodeButton_Click(object sender, RoutedEventArgs e)
+        {
+            //string mijnkleur1 = kleurvlak1.ToString();
+            //string mijnkleur2 = kleurvlak2.ToString();
+            //string mijnkleur3 = kleurvlak3.ToString();
+            //string mijnkleur4 = kleurvlak4.ToString();
+            //string randomkleurkeuze1 = randomkleur1.ToString();
+            //string randomkleurkeuze2 = randomkleur2.ToString();
+            //string randomkleurkeuze3 = randomkleur3.ToString();
+            //string randomkleurkeuze4 = randomkleur4.ToString();
+            //string juist1 = labelnumber1.ToString();
             
-        }
-        private void cbkleur2_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
+
+            //if (mijnkleur1 == randomkleurkeuze1)
+            //{
+            //    kleurvlak1.BorderBrush = Brushes.Green;
+            //}
+            //else if (mijnkleur1 == randomkleurkeuze2)
+            //{
+            //    kleurvlak1.BorderBrush = Brushes.Orange;
+            //} 
+            //else if (mijnkleur1 == randomkleurkeuze3)
+            //{
+            //    kleurvlak1.BorderBrush = Brushes.Orange;
+            //}
+            //else if (mijnkleur1 == randomkleurkeuze4)
+            //{
+            //    kleurvlak1.BorderBrush = Brushes.Orange;
+            //}
+            //else
+            //{
+            //    kleurvlak1.BorderBrush= Brushes.Red;
+            //}
+            
+
+
+            //if (mijnkleur2 == randomkleurkeuze2)
+            //{
+            //    kleurvlak2.BorderBrush = Brushes.Green;
+            //}
+            //else if (mijnkleur2 == randomkleurkeuze1)
+            //{
+            //    kleurvlak2.BorderBrush = Brushes.Orange;
+            //} 
+            //else if (mijnkleur2 == randomkleurkeuze3)
+            //{
+            //    kleurvlak2.BorderBrush = Brushes.Orange;
+            //}
+            //else if (mijnkleur2 == randomkleurkeuze4)
+            //{
+            //    kleurvlak2.BorderBrush = Brushes.Orange;
+            //}
+            //else
+            //{
+            //    kleurvlak2.BorderBrush= Brushes.Red;
+            //}
+
+
+
+            //if (mijnkleur3 == randomkleurkeuze3)
+            //{
+            //    kleurvlak3.BorderBrush = Brushes.Green;
+            //}
+            //else if (mijnkleur3 == randomkleurkeuze2)
+            //{
+            //    kleurvlak3.BorderBrush = Brushes.Orange;
+            //}
+            //else if (mijnkleur3 == randomkleurkeuze3)
+            //{
+            //    kleurvlak3.BorderBrush = Brushes.Orange;
+            //}
+            //else if (mijnkleur3 == randomkleurkeuze4)
+            //{
+            //    kleurvlak3.BorderBrush = Brushes.Orange;
+            //}
+            //else
+            //{
+            //    kleurvlak3.BorderBrush = Brushes.Red;
+            //}
+
+
+
+            //if (mijnkleur4 == randomkleurkeuze4)
+            //{
+            //    kleurvlak4.BorderBrush = Brushes.Green;
+            //}
+            //else if (mijnkleur4 == randomkleurkeuze2)
+            //{
+            //    kleurvlak4.BorderBrush = Brushes.Orange;
+            //}
+            //else if (mijnkleur4 == randomkleurkeuze3)
+            //{
+            //    kleurvlak4.BorderBrush = Brushes.Orange;
+            //}
+            //else if (mijnkleur4 == randomkleurkeuze1)
+            //{
+            //    kleurvlak4.BorderBrush = Brushes.Orange;
+            //}
+            //else
+            //{
+            //    kleurvlak4.BorderBrush = Brushes.Red;
+            //}
 
         }
-        private void cbkleur3_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-        private void cbkleur4_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-
-        private Brush getcolorfromindex(string index)
-        {
-            switch (kleurkeuze)
-        }
-
-
-    }
-}
+    } 
+} 
