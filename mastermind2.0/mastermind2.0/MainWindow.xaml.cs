@@ -331,106 +331,104 @@ namespace mastermind2._0
 
         private void CheckCodeButton_Click(object sender, RoutedEventArgs e)
         {
-            //string mijnkleur1 = kleurvlak1.ToString();
-            //string mijnkleur2 = kleurvlak2.ToString();
-            //string mijnkleur3 = kleurvlak3.ToString();
-            //string mijnkleur4 = kleurvlak4.ToString();
-            //string randomkleurkeuze1 = randomkleur1.ToString();
-            //string randomkleurkeuze2 = randomkleur2.ToString();
-            //string randomkleurkeuze3 = randomkleur3.ToString();
-            //string randomkleurkeuze4 = randomkleur4.ToString();
-            //string juist1 = labelnumber1.ToString();
-            
+            string mijnkleur1 = kleurvlak1.ToString();
+            string mijnkleur2 = kleurvlak2.ToString();
+            string mijnkleur3 = kleurvlak3.ToString();
+            string mijnkleur4 = kleurvlak4.ToString();
+            string randomkleurkeuze1 = randomkleur1.ToString();
+            string randomkleurkeuze2 = randomkleur2.ToString();
+            string randomkleurkeuze3 = randomkleur3.ToString();
+            string randomkleurkeuze4 = randomkleur4.ToString();
 
-            //if (mijnkleur1 == randomkleurkeuze1)
-            //{
-            //    kleurvlak1.BorderBrush = Brushes.Green;
-            //}
-            //else if (mijnkleur1 == randomkleurkeuze2)
-            //{
-            //    kleurvlak1.BorderBrush = Brushes.Orange;
-            //} 
-            //else if (mijnkleur1 == randomkleurkeuze3)
-            //{
-            //    kleurvlak1.BorderBrush = Brushes.Orange;
-            //}
-            //else if (mijnkleur1 == randomkleurkeuze4)
-            //{
-            //    kleurvlak1.BorderBrush = Brushes.Orange;
-            //}
-            //else
-            //{
-            //    kleurvlak1.BorderBrush= Brushes.Red;
-            //}
-            
-
-
-            //if (mijnkleur2 == randomkleurkeuze2)
-            //{
-            //    kleurvlak2.BorderBrush = Brushes.Green;
-            //}
-            //else if (mijnkleur2 == randomkleurkeuze1)
-            //{
-            //    kleurvlak2.BorderBrush = Brushes.Orange;
-            //} 
-            //else if (mijnkleur2 == randomkleurkeuze3)
-            //{
-            //    kleurvlak2.BorderBrush = Brushes.Orange;
-            //}
-            //else if (mijnkleur2 == randomkleurkeuze4)
-            //{
-            //    kleurvlak2.BorderBrush = Brushes.Orange;
-            //}
-            //else
-            //{
-            //    kleurvlak2.BorderBrush= Brushes.Red;
-            //}
+            if (mijnkleur1 == randomkleurkeuze1)
+            {
+                kleurvlak1.BorderBrush = Brushes.Green;
+            }
+            else if (mijnkleur1 == randomkleurkeuze2)
+            {
+                kleurvlak1.BorderBrush = Brushes.Orange;
+            }
+            else if (mijnkleur1 == randomkleurkeuze3)
+            {
+                kleurvlak1.BorderBrush = Brushes.Orange;
+            }
+            else if (mijnkleur1 == randomkleurkeuze4)
+            {
+                kleurvlak1.BorderBrush = Brushes.Orange;
+            }
+            else
+            {
+                kleurvlak1.BorderBrush = Brushes.Red;
+            }
 
 
 
-            //if (mijnkleur3 == randomkleurkeuze3)
-            //{
-            //    kleurvlak3.BorderBrush = Brushes.Green;
-            //}
-            //else if (mijnkleur3 == randomkleurkeuze2)
-            //{
-            //    kleurvlak3.BorderBrush = Brushes.Orange;
-            //}
-            //else if (mijnkleur3 == randomkleurkeuze3)
-            //{
-            //    kleurvlak3.BorderBrush = Brushes.Orange;
-            //}
-            //else if (mijnkleur3 == randomkleurkeuze4)
-            //{
-            //    kleurvlak3.BorderBrush = Brushes.Orange;
-            //}
-            //else
-            //{
-            //    kleurvlak3.BorderBrush = Brushes.Red;
-            //}
+            if (mijnkleur2 == randomkleurkeuze2)
+            {
+                kleurvlak2.BorderBrush = Brushes.Green;
+            }
+            else if (mijnkleur2 == randomkleurkeuze1)
+            {
+                kleurvlak2.BorderBrush = Brushes.Orange;
+            }
+            else if (mijnkleur2 == randomkleurkeuze3)
+            {
+                kleurvlak2.BorderBrush = Brushes.Orange;
+            }
+            else if (mijnkleur2 == randomkleurkeuze4)
+            {
+                kleurvlak2.BorderBrush = Brushes.Orange;
+            }
+            else
+            {
+                kleurvlak2.BorderBrush = Brushes.Red;
+            }
 
 
 
-            //if (mijnkleur4 == randomkleurkeuze4)
-            //{
-            //    kleurvlak4.BorderBrush = Brushes.Green;
-            //}
-            //else if (mijnkleur4 == randomkleurkeuze2)
-            //{
-            //    kleurvlak4.BorderBrush = Brushes.Orange;
-            //}
-            //else if (mijnkleur4 == randomkleurkeuze3)
-            //{
-            //    kleurvlak4.BorderBrush = Brushes.Orange;
-            //}
-            //else if (mijnkleur4 == randomkleurkeuze1)
-            //{
-            //    kleurvlak4.BorderBrush = Brushes.Orange;
-            //}
-            //else
-            //{
-            //    kleurvlak4.BorderBrush = Brushes.Red;
-            //}
+            if (mijnkleur3 == randomkleurkeuze3)
+            {
+                kleurvlak3.BorderBrush = Brushes.Green;
+            }
+            else if (mijnkleur3 == randomkleurkeuze2)
+            {
+                kleurvlak3.BorderBrush = Brushes.Orange;
+            }
+            else if (mijnkleur3 == randomkleurkeuze3)
+            {
+                kleurvlak3.BorderBrush = Brushes.Orange;
+            }
+            else if (mijnkleur3 == randomkleurkeuze4)
+            {
+                kleurvlak3.BorderBrush = Brushes.Orange;
+            }
+            else
+            {
+                kleurvlak3.BorderBrush = Brushes.Red;
+            }
+
+
+
+            if (mijnkleur4 == randomkleurkeuze4)
+            {
+                kleurvlak4.BorderBrush = Brushes.Green;
+            }
+            else if (mijnkleur4 == randomkleurkeuze2)
+            {
+                kleurvlak4.BorderBrush = Brushes.Orange;
+            }
+            else if (mijnkleur4 == randomkleurkeuze3)
+            {
+                kleurvlak4.BorderBrush = Brushes.Orange;
+            }
+            else if (mijnkleur4 == randomkleurkeuze1)
+            {
+                kleurvlak4.BorderBrush = Brushes.Orange;
+            }
+            else
+            {
+                kleurvlak4.BorderBrush = Brushes.Red;
+            }
 
         }
     } 
