@@ -188,145 +188,145 @@ namespace mastermind2._0
         private void ButtonKleurRood1_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak1.Background = Brushes.Red.Clone();
-            //kleurvlak1.Content = "rood";
+            kleurvlak1.Content = "rood";
         }
 
         private void ButtonKleurGeel1_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak1.Background = Brushes.Yellow;
-            //kleurvlak1.Content = "geel";
+            kleurvlak1.Content = "geel";
         }
 
         private void ButtonKleurOranje1_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak1.Background = Brushes.Orange.Clone();
-            //kleurvlak1.Content = "oranje";
+            kleurvlak1.Content = "oranje";
         }
 
         private void ButtonKleurWit1_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak1.Background = Brushes.Beige.Clone();
-            //kleurvlak1.Content = "wit";
+            kleurvlak1.Content = "wit";
         }
 
         private void ButtonKleurGroen1_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak1.Background = Brushes.Green.Clone();
-            //kleurvlak1.Content = "groen";
+            kleurvlak1.Content = "groen";
         }
 
         private void ButtonKleurBlauw1_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak1.Background = Brushes.Blue.Clone();
-            //kleurvlak1.Content = "blauw";
+            kleurvlak1.Content = "blauw";
         }
 
         private void ButtonKleurRood2_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak2.Background = Brushes.Red.Clone();
-            //kleurvlak2.Content = "rood";
+            kleurvlak2.Content = "rood";
         }
 
         private void ButtonKleurgeel2_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak2.Background = Brushes.Yellow.Clone();
-            //kleurvlak2.Content = "geel";
+            kleurvlak2.Content = "geel";
         }
 
         private void ButtonKleurOranje2_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak2.Background = Brushes.Orange.Clone();
-            //kleurvlak2.Content = "oranje";
+            kleurvlak2.Content = "oranje";
         }
 
         private void ButtonKleurWit2_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak2.Background = Brushes.Beige.Clone();
-            //kleurvlak2.Content = "wit";
+            kleurvlak2.Content = "wit";
         }
 
         private void ButtonKleurGroen2_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak2.Background = Brushes.Green.Clone();
-            //kleurvlak2.Content = "groen";
+            kleurvlak2.Content = "groen";
         }
 
         private void ButtonKleurBlauw2_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak2.Background = Brushes.Blue.Clone();
-            //kleurvlak2.Content = "blauw";
+            kleurvlak2.Content = "blauw";
         }
 
         private void ButtonKleurRood3_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak3.Background = Brushes.Red.Clone();
-            //kleurvlak3.Content = "rood";
+            kleurvlak3.Content = "rood";
         }
 
         private void ButtonKleurGeel3_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak3.Background = Brushes.Yellow.Clone();
-            //kleurvlak3.Content = "geel";
+            kleurvlak3.Content = "geel";
         }
 
         private void ButtonKleurOranje3_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak3.Background = Brushes.Orange.Clone();
-            //kleurvlak3.Content = "oranje";
+            kleurvlak3.Content = "oranje";
         }
 
         private void ButtonKleurWit3_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak3.Background = Brushes.Beige.Clone();
-            //kleurvlak3.Content = "wit";
+            kleurvlak3.Content = "wit";
         }
 
         private void ButtonKleurGroen3_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak3.Background = Brushes.Green.Clone();
-            //kleurvlak3.Content = "groen";
+            kleurvlak3.Content = "groen";
         }
 
         private void ButtonKleurBlauw3_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak3.Background = Brushes.Blue.Clone();
-            //kleurvlak3.Content = "blauw";
+            kleurvlak3.Content = "blauw";
         }
 
         private void ButtonKleurRood4_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak4.Background = Brushes.Red.Clone();
-            //kleurvlak4.Content = "rood";
+            kleurvlak4.Content = "rood";
         }
 
         private void ButtonKleurGeel4_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak4.Background = Brushes.Yellow.Clone();
-            //kleurvlak4.Content = "geel";
+            kleurvlak4.Content = "geel";
         }
 
         private void ButtonKleurOranje4_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak4.Background = Brushes.Orange.Clone();
-            //kleurvlak4.Content = "oranje";
+            kleurvlak4.Content = "oranje";
         }
 
         private void ButtonKleurWit4_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak4.Background = Brushes.Beige.Clone();
-            //kleurvlak4.Content = "wit";
+            kleurvlak4.Content = "wit";
         }
 
         private void ButtonKleurGroen4_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak4.Background = Brushes.Green.Clone();
-            //kleurvlak4.Content = "groen";
+            kleurvlak4.Content = "groen";
         }
 
         private void ButtonKleurBlauw4_Click(object sender, RoutedEventArgs e)
         {
             kleurvlak4.Background = Brushes.Blue.Clone();
-            //kleurvlak4.Content = "blauw";
+            kleurvlak4.Content = "blauw";
         }
 
         private void CheckCodeButton_Click(object sender, RoutedEventArgs e)
