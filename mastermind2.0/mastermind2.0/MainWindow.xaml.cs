@@ -430,6 +430,7 @@ namespace mastermind2._0
                 kleurvlak4.BorderBrush = Brushes.Red;
             }
 
+
         }
     } 
 } 
